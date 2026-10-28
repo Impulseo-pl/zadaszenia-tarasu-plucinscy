@@ -19,97 +19,118 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/styles.css?v=426f035f">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css?v=20261028">
 </head>
 <body>
 
 <header class="nav">
   <div class="wrap nav-inner">
     <a class="brand brand-has-logo" href="index.html"><img class="brand-logo" src="img/logo.png" alt="Zadaszenia tarasu Plucińscy" width="642" height="166" decoding="async"></a>
-    <nav class="nav-links">
-      <a href="oferta.html" class="active" aria-current="page">Oferta</a>
-      <a href="realizacje.html">Realizacje</a>
-      <a href="o-nas.html">O nas</a>
-      <a href="kontakt.html">Kontakt</a>
-      <a href="kontakt.html" class="btn btn-accent">Zapytaj o wycenę</a>
-    </nav>
-    <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    <button class="nav-toggle" aria-label="Otwórz menu" aria-expanded="false"><span class="bars"><i></i><i></i></span><span class="lbl">Menu</span></button>
+    <a class="nav-phone" href="tel:+48699122993" aria-label="Zadzwoń +48 699 122 993"><span class="num">+48 699 122 993</span><span class="arr">→</span><span class="ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg></span></a>
   </div>
 </header>
+<div class="menu" aria-hidden="true">
+  <div class="wrap menu-top">
+    <a class="brand" href="index.html"><img class="brand-logo" src="img/logo-light.png" alt="Zadaszenia tarasu Plucińscy" width="642" height="166" decoding="async"></a>
+    <button class="menu-close" aria-label="Zamknij menu">Zamknij <svg width="12" height="12" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg></button>
+    <span></span>
+  </div>
+  <div class="wrap menu-body">
+    <nav class="menu-links">
+      <a href="index.html">Start</a>
+      <a href="oferta.html">Oferta</a>
+      <a href="realizacje.html">Aranżacje</a>
+      <a href="o-nas.html">O&nbsp;nas</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+    <div class="menu-side">
+      <div><h4>Telefon</h4><a href="tel:+48699122993">+48 699 122 993</a></div>
+      <div><h4>E-mail</h4><a href="mailto:zadaszeniatarasuplucinski@gmail.com">zadaszeniatarasuplucinski@gmail.com</a></div>
+      <div><h4>Obszar</h4>Września i&nbsp;okolice, wielkopolskie</div>
+    </div>
+  </div>
+</div>
 
 <main>
 <section class="pagehead">
-  <img src="img/g8.jpg" alt="Zadaszenia tarasu Plucińscy - Zadaszenia i ogrody letnie" width="1600" height="1066" decoding="async">
+  <img src="img/g8.jpg" alt="Zadaszenia tarasu Plucińscy - oferta" width="1600" height="1066" decoding="async" fetchpriority="high">
   <div class="wrap">
-    <span class="eyebrow">Co robimy</span>
-    <h1>Zadaszenia i ogrody letnie</h1>
-    <p>Zajmujemy się sprzedażą i montażem - od doboru rozwiązania po gotowe zadaszenie na Twoim tarasie. Napisz, jaki masz taras, a podpowiemy, co się sprawdzi.</p>
-  </div>
-</section>
-<section>
-  <div class="wrap">
-    <div class="svc-row reveal">
-      <div class="svc-row-art"><img src="img/g2.jpg" alt="Zadaszenia tarasów" loading="lazy" width="1600" height="1066" decoding="async"></div>
-      <div>
-        <span class="num">01</span>
-        <h3>Zadaszenia tarasów</h3>
-        <p class="muted">Dach nad tarasem dobrany do domu i wielkości tarasu - osłona przed deszczem i ostrym słońcem.</p>
-      </div>
-    </div>
-    <div class="svc-row rev reveal">
-      <div class="svc-row-art"><img src="img/g3.jpg" alt="Ogrody letnie" loading="lazy" width="1600" height="1068" decoding="async"></div>
-      <div>
-        <span class="num">02</span>
-        <h3>Ogrody letnie</h3>
-        <p class="muted">Zadaszenie z zabudową boczną, dzięki której taras staje się dodatkowym pokojem od wiosny do jesieni.</p>
-      </div>
-    </div>
-    <div class="svc-row reveal">
-      <div class="svc-row-art"><img src="img/g4.jpg" alt="Sprzedaż zadaszeń" loading="lazy" width="1600" height="1066" decoding="async"></div>
-      <div>
-        <span class="num">03</span>
-        <h3>Sprzedaż zadaszeń</h3>
-        <p class="muted">Pomagamy wybrać konstrukcję i pokrycie, które pasują do budynku i Twoich potrzeb.</p>
-      </div>
-    </div>
-    <div class="svc-row rev reveal">
-      <div class="svc-row-art"><img src="img/g5.jpg" alt="Montaż pod klucz" loading="lazy" width="1524" height="974" decoding="async"></div>
-      <div>
-        <span class="num">04</span>
-        <h3>Montaż pod klucz</h3>
-        <p class="muted">Pomiar, dostawa i montaż w jednych rękach - nie musisz szukać osobnej ekipy.</p>
-      </div>
-    </div>
-    <div class="svc-row reveal">
-      <div class="svc-row-art"><img src="img/g6.jpg" alt="Doradztwo przy wyborze" loading="lazy" width="1510" height="952" decoding="async"></div>
-      <div>
-        <span class="num">05</span>
-        <h3>Doradztwo przy wyborze</h3>
-        <p class="muted">Rozmawiamy o tym, jak korzystasz z tarasu, i dopiero wtedy proponujemy rozwiązanie.</p>
-      </div>
-    </div>
-    <div class="svc-row rev reveal">
-      <div class="svc-row-art"><img src="img/g7.jpg" alt="Pomiar na miejscu" loading="lazy" width="1600" height="1068" decoding="async"></div>
-      <div>
-        <span class="num">06</span>
-        <h3>Pomiar na miejscu</h3>
-        <p class="muted">Przyjeżdżamy, mierzymy taras i sprawdzamy, jak zadaszenie połączyć z budynkiem.</p>
-      </div>
+    <div class="ph-copy reveal">
+      <span class="kicker">Oferta</span>
+      <h1>Zadaszenia i&nbsp;ogrody letnie</h1>
+      <p>Zajmujemy się sprzedażą i&nbsp;montażem, od doboru rozwiązania po gotowe zadaszenie na Twoim tarasie. Napisz, jaki masz taras, a&nbsp;podpowiemy, co się sprawdzi.</p>
     </div>
   </div>
 </section>
-
+<section class="rows">
+  <div class="wrap">
+    <div class="row reveal">
+      <figure class="row-art"><img src="img/g9.jpg" alt="Zadaszenia tarasów" width="1600" height="1066" decoding="async"></figure>
+      <div>
+        <span class="no">01</span>
+        <h2>Zadaszenia tarasów</h2>
+        <p>Dach nad tarasem dobrany do domu i&nbsp;wielkości tarasu. Osłania przed deszczem i&nbsp;ostrym słońcem, więc taras służy przez cały sezon.</p>
+        <a class="more" href="kontakt.html">Zapytaj o&nbsp;wycenę <span class="arr">→</span></a>
+      </div>
+    </div>
+    <div class="row rev reveal">
+      <figure class="row-art"><img src="img/g3.jpg" alt="Ogrody letnie" width="1600" height="1066" decoding="async"></figure>
+      <div>
+        <span class="no">02</span>
+        <h2>Ogrody letnie</h2>
+        <p>Zadaszenie z&nbsp;zabudową boczną, dzięki której taras staje się dodatkowym pokojem od wiosny do jesieni.</p>
+        <a class="more" href="kontakt.html">Zapytaj o&nbsp;wycenę <span class="arr">→</span></a>
+      </div>
+    </div>
+    <div class="row reveal">
+      <figure class="row-art"><img src="img/g4.jpg" alt="Sprzedaż zadaszeń" loading="lazy" width="1600" height="1066" decoding="async"></figure>
+      <div>
+        <span class="no">03</span>
+        <h2>Sprzedaż zadaszeń</h2>
+        <p>Pomagamy wybrać konstrukcję i&nbsp;pokrycie, które pasują do budynku i&nbsp;Twoich potrzeb.</p>
+        <a class="more" href="kontakt.html">Zapytaj o&nbsp;wycenę <span class="arr">→</span></a>
+      </div>
+    </div>
+    <div class="row rev reveal">
+      <figure class="row-art"><img src="img/g5.jpg" alt="Montaż pod klucz" loading="lazy" width="1600" height="1066" decoding="async"></figure>
+      <div>
+        <span class="no">04</span>
+        <h2>Montaż pod klucz</h2>
+        <p>Pomiar, dostawa i&nbsp;montaż w&nbsp;jednych rękach. Nie musisz szukać osobnej ekipy ani pilnować kilku wykonawców.</p>
+        <a class="more" href="kontakt.html">Zapytaj o&nbsp;wycenę <span class="arr">→</span></a>
+      </div>
+    </div>
+    <div class="row reveal">
+      <figure class="row-art"><img src="img/g6.jpg" alt="Doradztwo przy wyborze" loading="lazy" width="1600" height="1066" decoding="async"></figure>
+      <div>
+        <span class="no">05</span>
+        <h2>Doradztwo przy wyborze</h2>
+        <p>Rozmawiamy o&nbsp;tym, jak korzystasz z&nbsp;tarasu, i&nbsp;dopiero wtedy proponujemy rozwiązanie.</p>
+        <a class="more" href="kontakt.html">Zapytaj o&nbsp;wycenę <span class="arr">→</span></a>
+      </div>
+    </div>
+    <div class="row rev reveal">
+      <figure class="row-art"><img src="img/g7.jpg" alt="Pomiar na miejscu" loading="lazy" width="1600" height="1066" decoding="async"></figure>
+      <div>
+        <span class="no">06</span>
+        <h2>Pomiar na miejscu</h2>
+        <p>Przyjeżdżamy, mierzymy taras i&nbsp;sprawdzamy, jak zadaszenie połączyć z&nbsp;budynkiem.</p>
+        <a class="more" href="kontakt.html">Zapytaj o&nbsp;wycenę <span class="arr">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
 <section class="cta">
-  <div class="wrap">
-    <div class="reveal">
-      <span class="eyebrow">Współpraca</span>
-      <h2>Która z usług Cię interesuje?</h2>
-      <p>Napisz, co chcesz zrobić - odpowiemy z propozycją i wyceną.</p>
-    </div>
-    <div class="cta-actions reveal">
-      <a href="kontakt.html" class="btn btn-light">Zapytaj o wycenę <span class="arr">→</span></a>
-      <a href="tel:+48699122993" class="btn btn-ghost btn-ghost-cta">+48 699 122 993</a>
+  <div class="wrap reveal">
+    <span class="kicker">Porozmawiajmy</span>
+    <h2>Która usługa Cię interesuje?</h2>
+    <a class="tel" href="tel:+48699122993">+48 699 122 993</a>
+    <p>Napisz, co chcesz zrobić. Odpowiemy z&nbsp;propozycją i&nbsp;wyceną.</p>
+    <div class="cta-actions">
+      <a href="kontakt.html" class="btn btn-fill">Zapytaj o&nbsp;wycenę <span class="arr">→</span></a>
+      <a href="tel:+48699122993" class="btn">Zadzwoń teraz</a>
     </div>
   </div>
 </section>
@@ -117,28 +138,34 @@
 
 <footer>
   <div class="wrap">
-    <div class="foot-grid">
+    <div class="foot-top">
       <div class="foot-brand">
-        <div class="name">Zadaszenia tarasu Plucińscy</div>
-        <p>Sprzedajemy i montujemy zadaszenia tarasów oraz ogrody letnie.</p>
+        <img src="img/logo-light.png" alt="Zadaszenia tarasu Plucińscy" width="642" height="166" loading="lazy" decoding="async">
+        <p>Sprzedajemy i&nbsp;montujemy zadaszenia tarasów oraz ogrody letnie.</p>
       </div>
       <div class="foot-col">
-        <h4>Nawigacja</h4>
-        <a href="oferta.html">Oferta</a>
-        <a href="realizacje.html">Realizacje</a>
-        <a href="o-nas.html">O nas</a>
-        <a href="kontakt.html">Kontakt</a>
+        <h4>Oferta</h4>
+        <a href="oferta.html">Zadaszenia tarasów</a>
+        <a href="oferta.html">Ogrody letnie</a>
+        <a href="oferta.html">Montaż pod klucz</a>
+        <a href="realizacje.html">Aranżacje</a>
       </div>
       <div class="foot-col">
         <h4>Kontakt</h4>
         <a href="tel:+48699122993">+48 699 122 993</a>
         <a href="mailto:zadaszeniatarasuplucinski@gmail.com">zadaszeniatarasuplucinski@gmail.com</a>
-        <p>Września, wielkopolskie</p>
-      <div class="foot-soc">
-        <a class="soc" href="https://www.facebook.com/Zadaszeniatarasuplucinski/" target="_blank" rel="noopener" aria-label="Facebook - Zadaszenia tarasu Plucińscy"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z" fill="currentColor"/></svg></a>
-        <a class="soc" href="https://www.instagram.com/zadaszeniatarasuplucinscy/" target="_blank" rel="noopener" aria-label="Instagram - Zadaszenia tarasu Plucińscy"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077" fill="currentColor"/></svg></a>
+        <a href="kontakt.html">Zapytaj o&nbsp;wycenę</a>
       </div>
+      <div class="foot-col">
+        <h4>Obszar działania</h4>
+        <span>Września</span>
+        <span>i&nbsp;okolice</span>
+        <span>wielkopolskie</span>
       </div>
+    </div>
+    <div class="foot-soc">
+      <a class="soc" href="https://www.facebook.com/Zadaszeniatarasuplucinski/" target="_blank" rel="noopener" aria-label="Facebook - Zadaszenia tarasu Plucińscy"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z" fill="currentColor"/></svg><span><b>Facebook</b><small>Obserwuj nas</small></span></a>
+      <a class="soc" href="https://www.instagram.com/zadaszeniatarasuplucinscy/" target="_blank" rel="noopener" aria-label="Instagram - Zadaszenia tarasu Plucińscy"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077" fill="currentColor"/></svg><span><b>Instagram</b><small>Zajrzyj na profil</small></span></a>
     </div>
     <div class="foot-bot">
       <span>© 2026 Zadaszenia tarasu Plucińscy</span>
@@ -146,9 +173,9 @@
     </div>
   </div>
 </footer>
-<div class="sticky-reserve"><a class="sr-book" href="kontakt.html">Zapytaj o wycenę</a><a class="sr-call" href="tel:+48699122993" aria-label="Zadzwoń"><svg class="ico-tel" width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg></a></div>
+<div class="sticky-reserve"><a class="sr-book" href="kontakt.html">Zapytaj o&nbsp;wycenę</a><a class="sr-call" href="tel:+48699122993" aria-label="Zadzwoń"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11.4 11.4 0 0 0 3.6.58 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.58 3.6a1 1 0 0 1-.25 1l-2.23 2.2Z" fill="currentColor"/></svg></a></div>
 <div class="demo-wazne" data-do="2026-11-03" data-cykl="3" hidden><svg class="dw-ico" width="13" height="13" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="8.6" stroke="currentColor" stroke-width="1.8"/><path d="M12 7.2V12l3.3 2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="dw-txt"></span></div>
 
-<script src="assets/main.js"></script>
+<script src="assets/main.js?v=20261028"></script>
 </body>
 </html>
